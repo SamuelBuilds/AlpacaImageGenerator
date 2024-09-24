@@ -26,7 +26,7 @@ reportWebVitals();
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB0FHK6fTBi2ItgPUdvoaQ3lKZswHrCUjU",
+  apiKey: "",
   authDomain: "alpacaimagegenerator.firebaseapp.com",
   projectId: "alpacaimagegenerator",
   storageBucket: "alpacaimagegenerator.appspot.com",
