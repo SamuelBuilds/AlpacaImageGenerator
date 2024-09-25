@@ -1,5 +1,4 @@
 {
-    "earings": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023060/earings_vkbqwd.png",
     "accessories": {
         "earings": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023060/earings_vkbqwd.png",
         "flower": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023060/flower_v9xkdh.png",
@@ -7,14 +6,14 @@
         "headphone": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023060/headphone_hhcuwh.png"
     },
     "backgrounds": {
-        "blue50": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023120/blue50.png",
-        "blue60": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023121/blue60.png",
-        "blue70": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023122/blue70.png",
-        "darkblue30": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023123/darkblue30.png",
-        "darkblue50": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023124/darkblue50.png",
-        "darkblue70": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023125/darkblue70.png",
-        "green50": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023126/green50.png",
-        "green60": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023127/green60.png",
+        "blue50": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023115/blue50_zo5eel.png",
+        "blue60": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023116/blue60_j4tsqe.png",
+        "blue70": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023116/blue70_qhiezm.png",
+        "darkblue30": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023117/darkblue30_i5dcft.png",
+        "darkblue50": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023118/darkblue50_a9yhev.png",
+        "darkblue70": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023118/darkblue70_lml35d.png",
+        "green50": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023119/green50_lqruuz.png",
+        "green60": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023120/green60_mx4lil.png",
         "green70": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023120/green70_mmutxl.png",
         "grey40": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023121/grey40_xfnzj2.png",
         "grey70": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023122/grey70_xtwjte.png",
@@ -68,8 +67,5 @@
         "bend-forward": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023113/bend-forward_i9xmza.png",
         "default": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023113/default_vl7wow.png",
         "thick": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023114/thick_jldqze.png"
-    },
-    "nose": {
-        "nose": "https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023115/nose_ils0np.png"
     }
 }
