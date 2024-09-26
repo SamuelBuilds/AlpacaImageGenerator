@@ -1,4 +1,6 @@
 import { useEffect, useState } from 'react';
+import html2canvas from 'html2canvas';
+import { saveAs } from 'file-saver';
 import './App.css';
 
 function App() {
@@ -51,6 +53,37 @@ function App() {
         })
       )
     }
+    //randomize button
+    const getRandomUrl = (category) => {
+      const items = Object.values(data[category]);
+      console.log(items[Math.floor(Math.random() * items.length)])
+      return items[Math.floor(Math.random() * items.length)];
+    };
+    const randomizeImages = () => {
+      setImageUrls({
+        backgrounds: getRandomUrl('backgrounds'),
+        neck: getRandomUrl('neck'),
+        leg: getRandomUrl('leg'),
+        mouth: getRandomUrl('mouth'),
+        nose: 'https://res.cloudinary.com/dijtpwbyc/image/upload/v1727023115/nose_ils0np.png',
+        ears: getRandomUrl('ears'),
+        accessories: getRandomUrl('accessories'),
+        hair: getRandomUrl('hair'),
+        eyes: getRandomUrl('eyes'),
+      });
+    };
+    //Download button
+    const downloadImage = () => {
+      const editor = document.querySelector('.editor');
+      html2canvas(editor, {
+        useCORS: true,
+        backgroundColor: null,
+      }).then(canvas => {
+        canvas.toBlob(blob => {
+          saveAs(blob, 'generated-image.png');
+        });
+      });
+    };
     useEffect(() => {
       console.log('Initial image URLs:', imageUrls);
     }, [imageUrls]);
@@ -89,7 +122,10 @@ function App() {
             ))}
           </div>
         </div>)}
-        <div className="optional">not Again</div>
+        <div className="optional">
+        <button onClick={randomizeImages}>Randomize</button>
+        <button onClick={downloadImage}>Download</button>
+        </div>
     </div>
     </div>
     

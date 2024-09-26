@@ -9,7 +9,7 @@
   align-content: center;
   margin-left: 10%;
   /*margin-right: 10%;*/
-  column-gap: 15px;
+  column-gap: 150px;
   row-gap: 15px;
 }
 .editor {
@@ -25,15 +25,15 @@
   height: 400px;
 }
 .title{
-  grid-column: 1/10;
+  grid-column: 1;
   grid-row:1;
-  margin-right: 1px;
+  margin-right: 150px;
 }
 .items{
-  grid-column: 2/10;
+  grid-column: 2;
   grid-row:2;
   border: 2px solid black;
-  margin-right: 1px;
+  margin-right: 150px;
 }
 .buttons {
   display: grid;
@@ -44,14 +44,14 @@
   width: 100%;
 }
 .options{
-  grid-column: 2/10;
+  grid-column: 2;
   grid-row: 3;
   border: 2px solid black;
-  margin-right: 1px;
+  margin-right: 150px;
 }
 .optional{
-  grid-column: 1/10;
+  grid-column: 1;
   grid-row:4;
   border: 2px solid black;
-  margin-right: 1px;
+  margin-right: 5px;
 }
