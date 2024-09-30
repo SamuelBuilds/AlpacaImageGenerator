@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alpacaimagegenerator/static/css/main.2c0faf9d.css",
+    "main.js": "/alpacaimagegenerator/static/js/main.b4310adc.js",
+    "static/js/453.6bf3b3e4.chunk.js": "/alpacaimagegenerator/static/js/453.6bf3b3e4.chunk.js",
+    "index.html": "/alpacaimagegenerator/index.html",
+    "main.2c0faf9d.css.map": "/alpacaimagegenerator/static/css/main.2c0faf9d.css.map",
+    "main.b4310adc.js.map": "/alpacaimagegenerator/static/js/main.b4310adc.js.map",
+    "453.6bf3b3e4.chunk.js.map": "/alpacaimagegenerator/static/js/453.6bf3b3e4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c0faf9d.css",
+    "static/js/main.b4310adc.js"
+  ]
+}
