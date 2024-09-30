@@ -90,7 +90,7 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        <div className="title">ALPACA IMAGE GENERATOR</div>
+        <div className="title">ALPACA IMAGE GENERATOR <a href="https://github.com/SamuelBuilds">@SamuelBuilds</a></div>
         <div className="editorplus">
           <div className="editor">
               <img src={imageUrls.backgrounds} className="layer" alt="background" ></img>
@@ -104,8 +104,8 @@ function App() {
               <img src={imageUrls.eyes} className="layer" alt="eyes" ></img>
           </div>
           <div className="optional">
-          <button className="buttons-21" onClick={randomizeImages}><p>Randomize</p></button>
-          <button className="buttons-2" onClick={downloadImage}><p>Download</p></button>
+          <button className="buttons-21" onClick={randomizeImages}><p>🔀 Randomize</p></button>
+          <button className="buttons-2" onClick={downloadImage}><p>🖼️ Download</p></button>
           </div>
         </div>
         <div className="items">
