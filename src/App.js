@@ -90,20 +90,26 @@ function App() {
   return (
     <div className="App">
       <div className="content">
-        <div className="title">Alpaca Image Generator</div>
-        <div className="editor">
-            <img src={imageUrls.backgrounds} className="layer" alt="background" ></img>
-            <img src={imageUrls.neck} className="layer" alt="neck" ></img>
-            <img src={imageUrls.leg} className="layer" alt="leg" ></img>
-            <img src={imageUrls.mouth} className="layer" alt="mouth" ></img>
-            <img src={imageUrls.nose} className="layer" alt="nose" ></img>
-            <img src={imageUrls.ears} className="layer" alt="ears" ></img>
-            <img src={imageUrls.accessories} className="layer" alt="accessories" ></img>
-            <img src={imageUrls.hair} className="layer" alt="hair" ></img>
-            <img src={imageUrls.eyes} className="layer" alt="eyes" ></img>
+        <div className="title">ALPACA IMAGE GENERATOR</div>
+        <div className="editorplus">
+          <div className="editor">
+              <img src={imageUrls.backgrounds} className="layer" alt="background" ></img>
+              <img src={imageUrls.neck} className="layer" alt="neck" ></img>
+              <img src={imageUrls.leg} className="layer" alt="leg" ></img>
+              <img src={imageUrls.mouth} className="layer" alt="mouth" ></img>
+              <img src={imageUrls.nose} className="layer" alt="nose" ></img>
+              <img src={imageUrls.ears} className="layer" alt="ears" ></img>
+              <img src={imageUrls.accessories} className="layer" alt="accessories" ></img>
+              <img src={imageUrls.hair} className="layer" alt="hair" ></img>
+              <img src={imageUrls.eyes} className="layer" alt="eyes" ></img>
+          </div>
+          <div className="optional">
+          <button className="buttons-21" onClick={randomizeImages}><p>Randomize</p></button>
+          <button className="buttons-2" onClick={downloadImage}><p>Download</p></button>
+          </div>
         </div>
         <div className="items">
-          <div><p>buttons here</p></div>
+          <div className='text-header'><p>ACCESSORIZE THE ALPACA</p></div>
           <div className='buttons'>
           {Object.keys(data).map((category) => (
         <button key={category} onClick={() => toggleVisibility(category)}>
@@ -115,17 +121,13 @@ function App() {
           </div>
           {isVisible && selectedCategory && (
         <div className="options">
-          <div><p>buttons here</p></div>
+          <div className='text-header'><p>STYLE</p></div>
           <div className='buttons'>
           {Object.keys(data[selectedCategory]).map((item, index) => (
               <button key={index} onClick={() => handleButtonClick(selectedCategory, item)}>{item}</button>
             ))}
           </div>
         </div>)}
-        <div className="optional">
-        <button onClick={randomizeImages}>Randomize</button>
-        <button onClick={downloadImage}>Download</button>
-        </div>
     </div>
     </div>
     
